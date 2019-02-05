@@ -1,0 +1,90 @@
+$mainColor: #003840;
+
+body {
+    font-family: 'Raleway', sans-serif;
+    line-height: 40px;
+}
+
+
+//NAVIGATION
+
+.navbar {
+    box-shadow: 1px 7px 10px -3px rgba(0, 0, 0, 0.75);
+    background-color: $mainColor !important;
+
+    & .navbar-brand {
+        font-family: 'Cinzel', serif;
+    }
+}
+
+//HEADER
+header {
+    background: url('../img/header.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    transition: all 0.2s ease;
+
+    & .header_title {
+        text-align: center;
+        color: white;
+
+        h1 {
+            font-size: 5em;
+            font-family: 'Kaushan Script', cursive;
+            color: #F0E68C;
+            text-shadow: 2px 2px #333;
+        }
+
+        h2 {
+            font-size: 3em;
+            font-family: 'Cinzel', serif;
+            color: white;
+            text-shadow: 2px 2px #333;
+        }
+
+        h3 {
+            font-size: 1em;
+            text-shadow: 2px 2px #333;
+        }
+    }
+}
+
+header:hover {
+    opacity: 0.9;
+}
+
+.description {
+    background-color: $mainColor;
+    padding: 1%;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 2%;
+}
+
+.main {
+    & .main-content {
+        background-color: #fff;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        padding: 3%;
+    }
+}
+
+footer {
+    background-color: $mainColor;
+    height: auto;
+    padding: 2%;
+    color: white;
+}
+
+q {
+    font-style: italic;
+}
