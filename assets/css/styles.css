@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 40px;
 }
 
@@ -17,12 +21,12 @@ a:hover {
 
 .navbar {
   -webkit-box-shadow: 1px 7px 10px -3px rgba(0, 0, 0, 0.75);
-          box-shadow: 1px 7px 10px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 7px 10px -3px rgba(0, 0, 0, 0.75);
   background-color: #003840 !important;
 }
 
 .navbar .navbar-brand {
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
 }
 
 .navbar a:hover {
@@ -40,8 +44,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
@@ -53,14 +57,14 @@ header .header_title {
 
 header .header_title h1 {
   font-size: 5em;
-  font-family: 'Kaushan Script', cursive;
-  color: #F0E68C;
+  font-family: "Kaushan Script", cursive;
+  color: #f0e68c;
   text-shadow: 2px 2px #333;
 }
 
 header .header_title h2 {
   font-size: 3em;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
   color: white;
   text-shadow: 2px 2px #333;
 }
@@ -101,3 +105,46 @@ q {
   font-style: italic;
 }
 /*# sourceMappingURL=styles.css.map */
+/*CSS NIKY*/
+.pagination {
+  display: inline-block;
+  margin-left: 43%;  
+}
+
+.pagination a {
+  color: black;
+  border: 1px solid #003840;
+  background: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.pagination a.active {
+  background-color: #003840;
+  border:1px solid #003840;
+  color: white;
+  border-radius: 50%;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #003840;
+  color: white;
+  border-radius: 100%;
+}
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 300px 300px 300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+img{
+  width: 250px;
+  border-radius: 10px;
+}
