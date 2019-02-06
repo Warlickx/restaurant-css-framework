@@ -1,0 +1,15 @@
+.main-content form {
+  font-family: 'Cinzel', serif;
+}
+
+.main-content form label {
+  text-decoration: underline;
+}
+
+.envoi {
+  background-image: url(../img/send.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+}
+/*# sourceMappingURL=contact.css.map */
