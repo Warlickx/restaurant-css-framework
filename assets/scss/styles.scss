@@ -5,6 +5,16 @@ body {
     line-height: 40px;
 }
 
+a {
+    color: #333;
+    transition: all 1s ease;
+}
+
+a:hover {
+    color: #F8B500;
+    text-align: none;
+    text-decoration: none;
+}
 
 //NAVIGATION
 
@@ -14,6 +24,10 @@ body {
 
     & .navbar-brand {
         font-family: 'Cinzel', serif;
+    }
+
+    & a:hover{
+        color:#F0E68C !important;
     }
 }
 
@@ -64,7 +78,6 @@ header:hover {
     padding: 1%;
     color: white;
     text-align: center;
-    background-repeat: no-repeat;
     padding: 2%;
 }
 
@@ -76,6 +89,7 @@ header:hover {
         border-radius: 10px;
         padding: 3%;
     }
+
 }
 
 footer {

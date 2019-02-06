@@ -1,0 +1,25 @@
+.jumbotron{
+    background-color:#003840;
+}
+
+.panel{
+    & .panel-heading{
+        background:url('/assets/img/pattern.jpg');
+        padding:1%;
+        color:#fff;
+    }
+
+    & .panel-body{
+        padding:2%;
+        text-align: center;
+        & img{
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
+}
+
+.panel_body_description{
+    margin-top:3%;
+}
+

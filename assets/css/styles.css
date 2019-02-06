@@ -3,6 +3,18 @@ body {
   line-height: 40px;
 }
 
+a {
+  color: #333;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+a:hover {
+  color: #F8B500;
+  text-align: none;
+  text-decoration: none;
+}
+
 .navbar {
   -webkit-box-shadow: 1px 7px 10px -3px rgba(0, 0, 0, 0.75);
           box-shadow: 1px 7px 10px -3px rgba(0, 0, 0, 0.75);
@@ -11,6 +23,10 @@ body {
 
 .navbar .navbar-brand {
   font-family: 'Cinzel', serif;
+}
+
+.navbar a:hover {
+  color: #F0E68C !important;
 }
 
 header {
@@ -63,7 +79,6 @@ header:hover {
   padding: 1%;
   color: white;
   text-align: center;
-  background-repeat: no-repeat;
   padding: 2%;
 }
 
