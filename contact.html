@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Kaushan+Script|Raleway" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -84,8 +85,43 @@
 
         <!--MAIN-->
         <section class="main">
-            <div class="container main-content">
+            <div class="container main-content w-50">
                 <!--PLACER ICI VOS MODIFICATIONS PAGE-->
+                <!--PRENOM ET NOM-->
+                <form class="nom">
+                    <label for="fname">Prénom :</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="fname" placeholder="Arnaud">
+                  
+                    <label for="lname">Nom :</label>
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="lname" placeholder="Duchemin">
+                </form>
+                <!--ADRESSE MAIL-->
+                <form class="mail">
+                    <p><label for="email">Adresse mail :</label>
+                    <input type="text" class="form-control" id="email" placeholder="exemple@gmail.com"></p>
+                </form>
+                  <!--SELECTION MOTIF-->
+                <form class="motif">
+                    <p>
+                    <label for="motif">Motif de contact :</label>
+                    <select class="custom-select">
+                        <option selected="default">Veuillez choisir un motif de contact</option>
+                        <option value="reservation">Réservation</option>
+                        <option value="renseignement">Renseignement</option>
+                        <option value="reclamation">Réclamation</option>
+                        <option value="journalisme">Journalisme</option>
+                        <option value="embauche">Embauche</option>
+                      </select>
+                    </p>  
+                </form>
+                <!--MESSAGE-->
+                <form class="message">
+                        <label for="sujet">Sujet :</label>
+                        <textarea id="sujet" name="sujet" placeholder="Sujet de votre message..." style="width:100%"></textarea>
+                    <div class="envoi">
+                        <input type="submit" value="Envoyer">
+                    </div>
+                </form>
             </div>
         </section>
 
