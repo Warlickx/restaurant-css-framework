@@ -29,4 +29,6 @@ Pierre :
 
 Alexis :
 
+Premier travail de groupe conséquent, donc demandant plus un meilleur travail d'équipes et une meilleure gestions. Les idées ont vite été émises, vite acceptée, les plans dessinées, chaques personnes savaient quoi faire, l'entraide était au rendez-vous, pour un résultat ma foi, fort interressant et agréable.
+
 Nikita :
