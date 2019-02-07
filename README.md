@@ -10,3 +10,23 @@ Ce travail a été réalisé du 05/02 au 07/02 par :
 2. Loïc Marais -> https://github.com/Warlickx
 3. Alexis Losenko -> https://github.com/AlexisLosenko
 4. Nikita Denis -> https://github.com/NikyDenis
+
+Méthodologie :
+
+- Réunion brainstorming afin de trouver et choisir le concept, le nom, la palette chromatique et l'agencement du site.
+- Travail en groupe sur la page Accueuil avec utilisation intelligente des variables réutilisables du SASS, essais de palettes, changement si nécéssaire et finalisation du header/footer du site ainsi que la charte graphique du site.
+- Répartition des 4 pages restantes réalisées avec Bootstrap sur des branches différentes, vérification constante de la cohérence graphique entre chaque pages
+- Merging de chaque pages sur une branche de developpement, correction des conflits et finalisation du site.
+- Merging sur la branche master et hébergement à cette adresse : https://warlickx.github.io/restaurant-css-framework/index.html
+
+Retour des participants :
+
+Loïc :
+
+Première expérience en travail de groupe concluante, malgré le retard que j'ai pu accumuler avant de commencer, je n'ai pas été un boulet, je n'ai ralentis personne, la communication était excellente et donc le travail fluide !
+
+Pierre :
+
+Alexis :
+
+Nikita :
