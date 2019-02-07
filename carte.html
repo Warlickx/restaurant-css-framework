@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" media="screen and (max-width: 765px)" href="./assets/css/carte.css" />
+	<link rel="stylesheet" media="screen and (min-width: 765px)" href="./assets/css/carteG.css" />
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Kaushan+Script|Raleway" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -58,36 +60,115 @@
             </div>
         </header>
 
-        <!--DESCRIPITON-->
-        <section class="description">
-            <div class="container">
-                <div class="row justify-content-center">
-
-                <div class="col-md-10">
-                    <h3>Note d'un chef</h3>
-                            <q>Les saveurs maritimes, souvent négligées, ou limitée que sur les mêmes plats
-                                    ne permet pas, à ceux voulant se restaurer, de savourer le flot de saveurs
-                                    que propose ces perles des mers que sont les fruits de mer et leurs poissons.
-            
-                                    Le Hameçon vous propose alors des plats diversifiés dans ce domaine,
-                                    allant de plat typiques et connu, à de nouveautées pour petits et grands.
-            
-                                    Passant du carpaccio de saumon, au burger de calamar ou d'anguilles.
-                                    D'une sole meunière avec sa cuisson au beurre aux sardines en chips.
-            
-                                    Nos restaurants vous acceuilleront en leur sein avec notre approche authentique
-                                    et agréable afin de passer un délicieux moment dans nos restaurants! - Arnaud</q>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!--MAIN-->
-        <section class="main">
+		 <section class="main">
             <div class="container main-content">
-                <!--PLACER ICI VOS MODIFICATIONS PAGE-->
-            </div>
-        </section>
+			
+			<div media="screen and (max-width: 765px)" id="galerie-menu">
+		<nav>
+			
+    
+			<div class="overlay-image">
+			<a href="#" tabindex="0" title="Entrée"><img src="./assets/img/Entrée.jpg" />
+			<div class="normal">
+			<div class="text">
+			</div>
+			</div>
+			<div class="hover">
+			<div class="text">
+			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+			</div>
+			</div>
+			</a>
+			</div>
+    
+	
+			<div class="overlay-image">
+			<a href="#" tabindex="0" title="Entrée"><img src="./assets/img/Plat.jpg" />
+			<div class="normal">
+			<div class="text">
+			</div>
+			</div>
+			<div class="hover">
+			<div class="text">
+			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+			</div>
+			</div>
+			</a>
+			</div>
+     
+			<div class="overlay-image">
+			<a href="#" tabindex="0" title="Entrée">
+			<img src="./assets/img/Dessert.jpg" />
+			<div class="normal">
+			<div class="text">
+			</div>
+			</div>
+			<div class="hover">
+			<div class="text">
+			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+			</div>
+			</div>
+			</a>
+			</div>
+			
+			
+		</nav>
+	</div>
+        
+		
+		<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="./assets/img/Entrée.jpg" alt="Card image cap" id="img">
+    <div class="card-body">
+      <h5 class="card-title">Entrée</h5>
+      <p class="card-text">
+	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+	  </p>
+      
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="./assets/img/Plat.jpg" alt="Card image cap" id="img">
+    <div class="card-body">
+      <h5 class="card-title">Plat</h5>
+      <p class="card-text">
+	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+	 <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+	 <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+	  </p>
+      
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="./assets/img/Dessert.jpg" alt="Card image cap" id="img">
+    <div class="card-body">
+      <h5 class="card-title">Dessert</h5>
+      <p class="card-text">
+	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+	  </p>
+
+    </div>
+  </div>
+</div>
+</div>
+</section>
 
         <!--FOOTER-->
         <footer>

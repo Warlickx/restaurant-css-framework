@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAa;EACZ,OAAO,EAAC,IAAI;;AAGb,QAAQ;EACP,OAAO,EAAC,IAAI",
+"sources": ["../scss/carteG.scss"],
+"names": [],
+"file": "carteG.css"
+}
