@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-	<link rel="stylesheet" media="screen and (max-width: 765px)" href="./assets/css/carte.css" />
-	<link rel="stylesheet" media="screen and (min-width: 765px)" href="./assets/css/carteG.css" />
+    <link rel="stylesheet" media="screen and (max-width: 765px)" href="./assets/css/carte.css" />
+    <link rel="stylesheet" media="screen and (min-width: 765px)" href="./assets/css/carteG.css" />
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Kaushan+Script|Raleway" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -18,7 +18,7 @@
 <body>
     <main>
         <!--NAVIGATION-->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top ">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" role="navigation">
             <a class="navbar-brand" href="#">Le Hameçon</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -60,115 +60,126 @@
             </div>
         </header>
 
-        <!--MAIN-->
-		 <section class="main">
-            <div class="container main-content">
-			
-			<div media="screen and (max-width: 765px)" id="galerie-menu">
-		<nav>
-			
-    
-			<div class="overlay-image">
-			<a href="#" tabindex="0" title="Entrée"><img src="./assets/img/Entrée.jpg" />
-			<div class="normal">
-			<div class="text">
-			</div>
-			</div>
-			<div class="hover">
-			<div class="text">
-			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
-			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
-			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
-			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
-			</div>
-			</div>
-			</a>
-			</div>
-    
-	
-			<div class="overlay-image">
-			<a href="#" tabindex="0" title="Entrée"><img src="./assets/img/Plat.jpg" />
-			<div class="normal">
-			<div class="text">
-			</div>
-			</div>
-			<div class="hover">
-			<div class="text">
-			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
-			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
-			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
-			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
-			</div>
-			</div>
-			</a>
-			</div>
-     
-			<div class="overlay-image">
-			<a href="#" tabindex="0" title="Entrée">
-			<img src="./assets/img/Dessert.jpg" />
-			<div class="normal">
-			<div class="text">
-			</div>
-			</div>
-			<div class="hover">
-			<div class="text">
-			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
-			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
-			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
-			<h6>Example heading <span class="badge badge-secondary">New</span></h6>
-			</div>
-			</div>
-			</a>
-			</div>
-			
-			
-		</nav>
-	</div>
-        
-		
-		<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="./assets/img/Entrée.jpg" alt="Card image cap" id="img">
-    <div class="card-body">
-      <h5 class="card-title">Entrée</h5>
-      <p class="card-text">
-	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-	  </p>
-      
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="./assets/img/Plat.jpg" alt="Card image cap" id="img">
-    <div class="card-body">
-      <h5 class="card-title">Plat</h5>
-      <p class="card-text">
-	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-	 <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-	 <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-	  </p>
-      
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="./assets/img/Dessert.jpg" alt="Card image cap" id="img">
-    <div class="card-body">
-      <h5 class="card-title">Dessert</h5>
-      <p class="card-text">
-	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-	  <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-	  </p>
+          <!--Title_page-->
+          <section class="title_page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>Carte</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    </div>
-  </div>
-</div>
-</div>
-</section>
+        <!--MAIN-->
+        <section class="main">
+            <div class="container main-content">
+
+                <div media="screen and (max-width: 765px)" id="galerie-menu">
+                    <nav>
+
+
+                        <div class="overlay-image">
+                            <a href="#" tabindex="0" title="Entrée"><img src="./assets/img/Entrée.jpg" />
+                                <div class="normal">
+                                    <div class="text">
+                                    </div>
+                                </div>
+                                <div class="hover">
+                                    <div class="text">
+                                        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="overlay-image">
+                            <a href="#" tabindex="0" title="Entrée"><img src="./assets/img/Plat.jpg" />
+                                <div class="normal">
+                                    <div class="text">
+                                    </div>
+                                </div>
+                                <div class="hover">
+                                    <div class="text">
+                                        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="overlay-image">
+                            <a href="#" tabindex="0" title="Entrée">
+                                <img src="./assets/img/Dessert.jpg" />
+                                <div class="normal">
+                                    <div class="text">
+                                    </div>
+                                </div>
+                                <div class="hover">
+                                    <div class="text">
+                                        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </nav>
+                </div>
+
+
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/img/Entrée.jpg" alt="Card image cap" id="img">
+                        <div class="card-body">
+                            <h5 class="card-title">Entrée</h5>
+                            <p class="card-text">
+                                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/img/Plat.jpg" alt="Card image cap" id="img">
+                        <div class="card-body">
+                            <h5 class="card-title">Plat</h5>
+                            <p class="card-text">
+                                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/img/Dessert.jpg" alt="Card image cap" id="img">
+                        <div class="card-body">
+                            <h5 class="card-title">Dessert</h5>
+                            <p class="card-text">
+                                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                                <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!--FOOTER-->
         <footer>

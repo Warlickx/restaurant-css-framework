@@ -3,22 +3,31 @@
   margin: 3em auto;
   border: solid;
   border-radius: 5px;
-  box-shadow: 1px 1px 3px gray;
-  text-align: right; }
+  -webkit-box-shadow: 1px 1px 3px gray;
+          box-shadow: 1px 1px 3px gray;
+  text-align: right;
+}
 
 #galerie-menu a, #galerie-menu:hover a:focus {
   display: block;
   height: 30px;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0 15px white;
+  -webkit-box-shadow: 0 0 15px white;
+          box-shadow: 0 0 15px white;
+  -webkit-transition: 2s;
   transition: 2s;
-  transition-timing-function: cubic-bezier(0, 0.01, 0, 1); }
+  -webkit-transition-timing-function: cubic-bezier(0, 0.01, 0, 1);
+          transition-timing-function: cubic-bezier(0, 0.01, 0, 1);
+}
 
 #galerie-menu a:hover, #galerie-menu a:focus {
+  -webkit-transition: 2s;
   transition: 2s;
-  transition-timing-function: cubic-bezier(0, 0.01, 0, 1);
-  height: 300px; }
+  -webkit-transition-timing-function: cubic-bezier(0, 0.01, 0, 1);
+          transition-timing-function: cubic-bezier(0, 0.01, 0, 1);
+  height: 300px;
+}
 
 #galerie-menu a:before {
   content: attr(title);
@@ -30,9 +39,11 @@
   font-size: 30px;
   color: white;
   border: 1px solid gray;
-  box-shadow: 0 0 15px white;
+  -webkit-box-shadow: 0 0 15px white;
+          box-shadow: 0 0 15px white;
   background: rgba(0, 0, 0, 0.3);
-  line-height: 28px; }
+  line-height: 28px;
+}
 
 .overlay-image .text {
   color: #fff;
@@ -43,8 +54,10 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%; }
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+}
 
 .overlay-image .hover {
   position: absolute;
@@ -52,21 +65,28 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease; }
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
 
 .overlay-image .normal {
-  transition: .5s ease; }
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
 
 .overlay-image:hover .normal {
-  opacity: 0; }
+  opacity: 0;
+}
 
 .overlay-image .hover {
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .overlay-image:hover .hover {
-  opacity: 1; }
+  opacity: 1;
+}
 
 .card-deck {
-  display: none; }
-
+  display: none;
+}
 /*# sourceMappingURL=carte.css.map */

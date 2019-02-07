@@ -16,6 +16,18 @@ a:hover {
     text-decoration: none;
 }
 
+.title_page{
+    background-color:#F8B500;
+    text-align: center;
+    padding:0.2%;
+    color:white;
+
+    & h4{
+        font-size: 2em;
+        font-family: 'Kaushan Script', cursive;
+    }
+}
+
 //NAVIGATION
 
 .navbar {
@@ -26,8 +38,8 @@ a:hover {
         font-family: 'Cinzel', serif;
     }
 
-    & a:hover{
-        color:#F0E68C !important;
+    & a:hover {
+        color: #F0E68C !important;
     }
 }
 
@@ -101,4 +113,132 @@ footer {
 
 q {
     font-style: italic;
+}
+
+//*************************************************
+//PAGE ACCUEIL
+// *************************************************
+
+.jumbotron {
+    background-color: #003840;
+}
+
+.panel {
+    & .panel-heading {
+        background: url('/assets/img/pattern.jpg');
+        padding: 1%;
+        color: #fff;
+    }
+
+    & .panel-body {
+        padding: 2%;
+        text-align: center;
+
+        & img {
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
+}
+
+.panel_body_description {
+    margin-top: 3%;
+}
+
+//*************************************************
+//PAGE RESTAURANT
+// *************************************************
+
+iframe {
+    display: none;
+}
+
+.restaurant {
+    margin: 3%;
+    padding: 1%;
+}
+
+.main p {
+    text-align: justify;
+}
+
+@media screen and (min-width: 765px) {
+    iframe {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .main p {
+        line-height: 20px;
+    }
+}
+
+//*************************************************
+//PAGE CONTACT
+// *************************************************
+.main-content {
+    form {
+        font-family: 'Raleway', sans-serif;
+
+        label {
+            text-decoration: underline;
+        }
+    }
+}
+
+.envoi {
+    background-image: url(../img/send.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+//*************************************************
+//PAGE PHOTOS
+// *************************************************
+
+.pagination {
+    display: inline-block;
+    margin-left: 43%;
+}
+
+.pagination a {
+    color: black;
+    border: 1px solid #003840;
+    background: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.pagination a.active {
+    background-color: #003840;
+    border: 1px solid #003840;
+    color: white;
+    border-radius: 50%;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #003840;
+    color: white;
+    border-radius: 100%;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: 300px 300px 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+img {
+    width: 250px;
+    border-radius: 10px;
 }
