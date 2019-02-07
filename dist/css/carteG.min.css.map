@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,AAAA,CACZ,OAAO,CAAC,IAAI,CACZ,AAED,AAAA,QAAQ,AAAA,CACP,OAAO,CAAC,IAAI,CACZ",
+    "sources": [
+        "../../assets/scss/carteG.scss"
+    ],
+    "names": [],
+    "file": "carteG.min.css"
+}

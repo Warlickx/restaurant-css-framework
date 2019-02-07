@@ -3,6 +3,30 @@ body {
   line-height: 40px;
 }
 
+a {
+  color: #333;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+a:hover {
+  color: #F8B500;
+  text-align: none;
+  text-decoration: none;
+}
+
+.title_page {
+  background-color: #F8B500;
+  text-align: center;
+  padding: 0.2%;
+  color: white;
+}
+
+.title_page h4 {
+  font-size: 2em;
+  font-family: 'Kaushan Script', cursive;
+}
+
 .navbar {
   -webkit-box-shadow: 1px 7px 10px -3px rgba(0, 0, 0, 0.75);
           box-shadow: 1px 7px 10px -3px rgba(0, 0, 0, 0.75);
@@ -11,6 +35,10 @@ body {
 
 .navbar .navbar-brand {
   font-family: 'Cinzel', serif;
+}
+
+.navbar a:hover {
+  color: #F0E68C !important;
 }
 
 header {
@@ -63,7 +91,6 @@ header:hover {
   padding: 1%;
   color: white;
   text-align: center;
-  background-repeat: no-repeat;
   padding: 2%;
 }
 
@@ -72,7 +99,7 @@ header:hover {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
-  padding: 3%;
+  padding: 5%;
 }
 
 footer {
@@ -84,5 +111,84 @@ footer {
 
 q {
   font-style: italic;
+}
+
+.jumbotron {
+  background-color: #003840;
+}
+
+.panel .panel-heading {
+  background: url("/assets/img/pattern.jpg");
+  padding: 1%;
+  color: #fff;
+}
+
+.panel .panel-body {
+  padding: 2%;
+  text-align: center;
+}
+
+.panel .panel-body img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.panel_body_description {
+  margin-top: 3%;
+}
+
+iframe {
+  display: none;
+}
+
+.restaurant {
+  margin: 3%;
+  padding: 1%;
+}
+
+.main p {
+  text-align: justify;
+}
+
+@media screen and (min-width: 765px) {
+  iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .main p {
+    line-height: 20px;
+  }
+}
+
+.main-content form {
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-content form label {
+  text-decoration: underline;
+}
+
+.envoi {
+  background-image: url(../img/send.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  padding: 1%;
+  border-radius: 5%;
+}
+
+.buttons {
+  margin-top: 5%;
+}
+
+.page-link {
+  border-radius: 50% !important;
+  margin: 0 5px;
 }
 /*# sourceMappingURL=styles.css.map */
