@@ -1,5 +1,5 @@
 #galerie-menu {
-  width: 400px;
+  width: auto;
   margin: 3em auto;
   border: solid;
   border-radius: 5px;
@@ -31,7 +31,7 @@
 
 #galerie-menu a:before {
   content: attr(title);
-  text-align: center;
+  text-align: left;
   width: 400px;
   position: absolute;
   top: 0;
