@@ -11,7 +11,7 @@ Ce travail a été réalisé du 05/02 au 07/02 par :
 3. Alexis Losenko -> https://github.com/AlexisLosenko
 4. Nikita Denis -> https://github.com/NikyDenis
 
-Méthodologie :
+# Méthodologie :
 
 - Réunion brainstorming afin de trouver et choisir le concept, le nom, la palette chromatique et l'agencement du site.
 - Travail en groupe sur la page Accueuil avec utilisation intelligente des variables réutilisables du SASS, essais de palettes, changement si nécéssaire et finalisation du header/footer du site ainsi que la charte graphique du site.
@@ -21,14 +21,13 @@ Méthodologie :
 
 Retour des participants :
 
-Loïc :
-
+## Loïc :
 Première expérience en travail de groupe concluante, malgré le retard que j'ai pu accumuler avant de commencer, je n'ai pas été un boulet, je n'ai ralentis personne, la communication était excellente et donc le travail fluide !
 
-Pierre :
+## Pierre :
+Pour un premier travail de goupe, l'objetif a été atteint. Dès le début, nous avons eu une bonne communication, une relation de confiance. Cela s'avère très riche lorsque c'est deux points sont le centre d'un projet. Il y a cependant un point que j'aimerais amélorier et cela me concerne directement. Je dois apprendre à plus léguer le travail aux autres. D'un point de vu projet, le layout de base a bien été respecté et tout le monde a su directement ce qu'il devait faire.
 
-Alexis :
-
+## Alexis :
 Premier travail de groupe conséquent, donc demandant plus un meilleur travail d'équipes et une meilleure gestions. Les idées ont vite été émises, vite acceptée, les plans dessinées, chaques personnes savaient quoi faire, l'entraide était au rendez-vous, pour un résultat ma foi, fort interressant et agréable.
 
-Nikita :
+## Nikita :
