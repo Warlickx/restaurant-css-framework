@@ -31,3 +31,4 @@ Pour un premier travail de goupe, l'objetif a été atteint. Dès le début, nou
 Premier travail de groupe conséquent, donc demandant plus un meilleur travail d'équipes et une meilleure gestions. Les idées ont vite été émises, vite acceptée, les plans dessinées, chaques personnes savaient quoi faire, l'entraide était au rendez-vous, pour un résultat ma foi, fort interressant et agréable.
 
 ## Nikita :
+Chouette expérience. Bonne entente et travail de groupe très fluide. Les choses ont vite été décidées et vites faites. Seul point négatif : j'ai eu beaucoup de mal avec Bootstrap mais j'ai pu compter sur l'équipe entière pour m'expliquer et m'aider à réparer les dégats. 
